@@ -1,0 +1,36 @@
+.tasks {
+  border: 1px solid black;
+  margin-bottom: 20px;
+  width: 175px;
+  height: fit-content;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.completed {
+  border: 1px solid black;
+  width: 175px;
+  height: fit-content;
+}
+.taskBox {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  justify-content: space-evenly;
+  align-content: center;
+}
+
+.title {
+  margin: 0;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: row;
+}
+
+.completedButton {
+  text-align: center;
+}
