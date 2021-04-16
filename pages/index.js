@@ -1,8 +1,7 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.scss";
-import Header from "../components/header";
-import List from "../components/list";
-
+import Header from "../components/Header";
+import Body from "../components/Body";
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -13,7 +12,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <Header />
-        <List />
+        <Body />
       </main>
     </div>
   );
